@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  
+  <body>
+    <!--banner at top that states my name and occupation-->
+    <header>
+      <header>
+        <h1>-Jesse Smart Software Developer-</h1>
+        <nav>
+          <ul id="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+         
+    </header>
+    
+    <!--main body which will include a photo along with sections intro, about me, and contact info-->
+    <main>
+      <!--section 1, photo and intro-->
+      <section id="home">
+        <div>
+          <img src="images/jesseWebsite.jpg" alt="jesseinblackandwhite" class="portrait">
+          <h2>-Hi, I'm Jesse Smart-</h2>
+        </div>
+        <p class="intro">I'm a software engineer currently located in Tampa, Florida. I admire and try to create websites and applications that are stable, user friendly, and aesthetically pleasing. Feel free to contact me at the links below. I'm eager to help make your software dream a reality.</p>
+      </section>
+      
+      <hr>
+      <!--section 2, about me (unordered list)-->
+      <section id="about">
+        <h2>-About Me-</h2>
+          <div>
+            <ul class="mother">
+              <li class="child">I've been a musician most of my life. I actually got my first taste of programming, building softsynths in Max/MSP.</li>
+              <li class="child">I'm a hopeless otaku. I spend way too much time for my own good reading manga and binge-watching on Crunchyroll. Speaking of Crunchyroll, I would love to someday help them update their notoriously subpar code.</li>
+              <li class="child">Aside from the fact that I identify as male, I am indeed turning into a crazy cat lady. I can't seem to stop bringing home abandoned kittens.</li>
+            </ul>
+          </div>
+      </section>
+      <hr>
+
+      <!--section 4, project info-->
+      <section id="projects">
+      <h2>-Project Section-</h2>
+      <div class="app-field">
+        
+        <div class="app-info">
+          <p>Project Thumbnail</p>
+          <p>Project Title</p>
+          <p>Project Description</p>
+          <p>Tech Stack</p>
+          <a href="#">View App</a>
+          <a href="#">View Code</a>
+        </div>
+
+        <div class="app-info">
+          <p>Project Thumbnail</p>
+          <p>Project Title</p>
+          <p>Project Description</p>
+          <p>Tech Stack</p>
+          <a href="#">View App</a>
+          <a href="#">View Code</a>
+        </div>
+      
+        <div class="app-info">
+          <p>Project Thumbnail</p>
+          <p>Project Title</p>
+          <p>Project Description</p>
+          <p>Tech Stack</p>
+          <a href="#">View App</a>
+          <a href="#">View Code</a>
+        </div>
+      
+      </div>
+      
+      </section> 
+
+      <hr>
+      <!--section 3, contact info (ordered list)-->
+      <section id="contact">
+        <h2>-Contact Me-</h2>
+          <div>
+            <ol class="father">
+              <li class="son"><a href="https://www.linkedin.com/in/jsmartdev">LinkedIn</a></li>
+              <li class="son"><a href="https://www.github.com/jsmartdev">GitHub</a></li>
+              <li class="son"><a href="mailto:jessemillersmart@gmail.com">Email</a></li>
+            </ol>
+          </div>
+        </section>
+
+        <hr>
+        
+
+        <form action="https://formspree.io/jessemillersmart@gmail.com" method="POST">
+          <label for="form-message">Your message:</label>
+          <textarea id="form-message" name="message"
+          autofocus="on" required maxlength="200" rows="15" placeholder="Type your message here"></textarea>
+          <button type="submit">Submit</button>
+          <button type="submit">Clear</button>
+      </form>        
+      
+      <hr>
+        
+        
+    
+    </main>
+  <!--banner at bottom-->
+  <footer>
+    <h3>Copyright 2020 Jesse Smart</h3>
+  </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

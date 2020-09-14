@@ -1,0 +1,203 @@
+/*changes the color of the main page background*/
+body {
+  background-color: burlywood;
+}
+
+/*styles the header*/
+header {
+  background-color: tomato;
+  text-align: center;
+  color: antiquewhite;
+  font-family: georgia;
+  font-size: 20px;
+  margin: 10px;
+  margin-bottom: 40px;
+}
+
+
+header h1 {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  color: antiquewhite;
+  padding-left: 0;
+  list-style: none;
+}
+
+
+header nav ul li a {
+  color: antiquewhite;
+  text-decoration: none;
+  margin: 0 20px 0 0;
+}
+
+header nav ul li:last-child a {
+  margin-right: 0;
+}
+
+/*styles all the heads*/
+h2 {
+  color: antiquewhite;
+  text-align: center;
+  font-family: Georgia;
+  font-size: 20px;
+}
+
+ol, a:link {
+  color: antiquewhite;
+  font-family: helvetica;
+  font-size: 20px;
+}
+
+p, ul {
+  font-family: helvetica;
+}
+
+/*creates a bordered banner around the footer and styles the text inside*/
+footer {
+  background: tomato url() no-repeat left top;
+  border: 5px solid antiquewhite;
+  font-family: georgia;
+  color: antiquewhite;
+  text-align: center;
+  padding: 8px 10px 10px;
+  margin: 10px;
+}
+
+/*along with a:link above, here are the psuedo classes, styling the links*/
+a:visited {
+  color: antiquewhite;
+}
+
+
+
+a:active {
+  color:lightyellow;
+}
+/*styles all the hr elements in the page*/
+ hr {
+   border: 2px solid antiquewhite;
+ }
+ /*styles the portrait*/
+ .portrait {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;  
+   width: 50%;
+ }
+
+ .intro {
+   text-align: left;
+   color: antiquewhite;
+ }
+
+ .mother {
+   display: flex;
+   flex-direction: column;
+ }
+
+ .child {
+   margin: 10px;
+   color: antiquewhite
+ }
+
+ .father {
+   display: flex;
+   flex-direction: column;
+ }
+
+ .son {
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ .app-field {
+  display: flex;
+  flex-direction: column;
+}
+ 
+ .app-info {
+   color: antiquewhite;
+   font-family: georgia;
+   margin-right: auto;
+   margin-left: auto;
+   text-decoration: none;
+   font-family: georgia;
+ }
+ 
+ 
+ 
+ form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: antiquewhite;
+  font-family: georgia;
+}
+
+form textarea {
+  height: 7rem;
+  width: 100%;
+  color: #000;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.submit {
+  margin-bottom: 10px;
+}
+ 
+ @media all and (min-width: 700px) {
+   
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;  
+  }
+
+  header h1 {
+    margin: 14px 0;
+    padding-top: 0;
+  }
+
+  header nav {
+    margin-top: 8px;
+  }
+  
+  header nav ul li a:hover {
+    color: #bdbdbd;
+  }
+
+  a:hover {
+    color:lightcyan;
+  }
+  
+  .mother {
+     flex-direction: row;
+   }
+
+  .father {
+     flex-direction: row;
+   }
+
+  .app-field {
+    flex-direction: row;
+  }
+
+
+
+
+
+ }
+
+
